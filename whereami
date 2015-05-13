@@ -1,0 +1,12 @@
+#!/bin/sh
+SELF=$_
+echo "_ is $SELF"
+echo "0 is $0"
+echo "BASH_SOURCE is $BASH_SOURCE"
+echo "BASH_SOURCE is $BASH_SOURCE"
+LOC=`readlink -f $SELF`
+DIR=`dirname $LOC`
+echo "LOC is $LOC"
+echo "DIR is $DIR"
+#export FOO=BAR
+
